@@ -20,8 +20,13 @@ Issues, features and feature requests will be tracked using this Github reposito
 - press ctrl + c to save your workflow locally.
 ### Open Existing Workflow
 - drop a .clwf file.  This will create a new tab for each workflow.
+### Testing
+- Tests are available at each node.  Open the test tab at the bottom of the node and add a test.  Caution: Tests do require a bit of resources and can greatly reduce performance.  This will be improved on in the future.
+### Chialisp
+- Select the 'chialisp' tab at the bottom on any node to view/copy the chialisp.
 
-## Templates
+# Special Nodes
+## Template Node
 - Templates are a way to create re-usable puzzles that can require desired functions and constants as well as requiring user defined nodes to be plugged in.
 ### Create Template
 - Hover over the menu at the bottom of the page and click 'Add Template'.
@@ -32,10 +37,10 @@ Issues, features and feature requests will be tracked using this Github reposito
 ### Using Templates
 - Drag out a noodle and then select the 'Pointer -> Template' node.  From there, you can select the template from an exported file or an internal template.  Note: Internal templates do react to changes.
 
-## Testing
-- Tests are available at each node.  Open the test tab at the bottom of the node and add a test.  Caution: Tests do require a bit of resources and can greatly reduce performance.  This will be improved on in the future.
+## Chialisp Node
+- Node that allows any chialisp to be input.
+- Use named inner puzzles to create a connection point to another node.  Anywhere in the chialisp that the name is used, will be replaced with the code generated from the connected node.
 
-## Chialisp
-- Select the 'chialisp' tab at the bottom on any node to view/copy the chialisp.
+
 
 
