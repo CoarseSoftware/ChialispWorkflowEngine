@@ -1,7 +1,7 @@
 # Chialisp Workflow Engine (Alpha)
 ## [chialisp.coarsesoftware.com](https://chialisp.coarsesoftware.com/)
 
-### Alpha phase of development.  Things will not work, have bugs and be subject to change.
+### Alpha phase of development.  Some things may not work, have bugs and be subject to change.
 
 ### About
 - Chialisp Workflow Engine is used to build and test chialisp puzzles using an intuitive, UX approach.
