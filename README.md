@@ -1,18 +1,29 @@
-# Chialisp Workflow Engine (Alpha)
+# Chialisp Workflow Engine (Early Beta)
 ## [chialisp.coarsesoftware.com](https://chialisp.coarsesoftware.com/)
-
-### Alpha phase of development.  Some things may not work, have bugs and be subject to change.
 
 ### About
 - Chialisp Workflow Engine is used to build and test chialisp puzzles using an intuitive, UX approach.
 - 100% Offline - meaning there is no backend to ensure puzzles are kept private.
 - Logging - logs are used when submitting an issue.  Logs will not track user input data but will contain data about the node hierarchy like puzzle type and puzzle ID.  No logs are sent without the users knowledge.
 
+### Early beta phase of development.  Some things may not work, have bugs and be subject to change.
+
+### Early Beta -> Beta | Roadmap
+- add tslog logging library
+- add bug report view
+- - report title input
+- - report description input - `brief user description of the issue`
+- - list of logs that will be pard of report
+- - button that
+- - - copies report to clipboard - github description pard, formatted as Markdown  
+- - - opens browser tab to https://github.com/CoarseSoftware/ChialispWorkflowEngine/issues/new?template=bug-report.md&title=%5BBUG%5D%20-%20testing
+- tests
+- - wasm for clvm commands using rust clvm tools
+
 ### Community Participation
 Issues, features and feature requests will be tracked using this Github repository.  
 - Issues
-- - DISABLED!  For now, as things are being built through the alpha phase, issues are either known about or will become evident as work is being done.  Once we enter beta phase, issues and features will be tracked on Github.
-- - We will, in the near future, set specific requirements for submitting issues. 
+- - As we wait for the the bug report view, just use best efforts to provide enough information to recreate the issue.
 
 # Tutorial
 ### Basic Concept
