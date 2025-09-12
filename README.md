@@ -1,12 +1,12 @@
 # Chialisp Workflow Engine (Early Beta)
+### Early beta phase of development.  Some things may not work, have bugs and be subject to change.
 ## [chialisp.coarsesoftware.com](https://chialisp.coarsesoftware.com/)
 
 ### About
 - Chialisp Workflow Engine is used to build and test chialisp puzzles using an intuitive, UX approach.
-- 100% Offline - meaning there is no backend to ensure puzzles are kept private.
+- 100% Offline - meaning there is no backend or other 3rd party apis.  This ensures puzzles are kept private.
 - Logging - logs are used when submitting an issue.  Logs will not track user input data but will contain data about the node hierarchy like puzzle type and puzzle ID.  No logs are sent without the users knowledge.
 
-### Early beta phase of development.  Some things may not work, have bugs and be subject to change.
 
 ### Early Beta -> Beta | Roadmap
 - add tslog logging library
