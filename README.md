@@ -31,7 +31,10 @@ Issues, features and feature requests will be tracked using this Github reposito
 ### Getting Started
 - Select 'New Workflow' from the top right menu, input a name and click create.
 ### Saving
-- press ctrl + c to save your workflow locally.
+- press ctrl + s to save your workflow locally.
+### Copy/Paste
+- copy - highlight nodes, ctrl + c
+- paste - ctrl + v
 ### Open Existing Workflow
 - drop a .clwf file.  This will create a new tab for each workflow.
 ### Testing
