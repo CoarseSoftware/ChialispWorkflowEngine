@@ -1,5 +1,5 @@
 # Chialisp Workflow Engine (Early Beta)
-### Early beta phase of development.  Some things may not work, have bugs and be subject to change.
+### Beta Phase.  Some things may not work, have bugs and be subject to change.  Use the 'Report Bug' button at the bottom of a workflow when your experience is not as expected.
 ## [chialisp.coarsesoftware.com](https://chialisp.coarsesoftware.com/)
 
 ### About
@@ -8,22 +8,18 @@
 - Logging - logs are used when submitting an issue.  Logs will not track user input data but will contain data about the node hierarchy like puzzle type and puzzle ID.  No logs are sent without the users knowledge.
 
 
-### Early Beta -> Beta | Roadmap
-- add tslog logging library
-- add bug report view
-  - report title input
-  - report description input - `brief user description of the issue`
-  - list of logs that will be pard of report
-  - button that
-    - copies report to clipboard - github description pard, formatted as Markdown  
-    - opens browser tab to https://github.com/CoarseSoftware/ChialispWorkflowEngine/issues/new?template=bug-report.md&title=%5BBUG%5D%20-%20testing
-- tests
+### Beta -> Release | Roadmap
+- chialisp tests
   - wasm for clvm commands using rust clvm tools
+- Mimic various chialisp programs
+  - ie; https://github.com/Chia-Network/chia-dev-tools/blob/main/cdv/examples/clsp/piggybank.clsp
+  - fix any issues along the way
+  - find and mimic more advanced puzzles
 
 ### Community Participation
 Issues, features and feature requests will be tracked using this Github repository.  
 - Issues
-  - As we wait for the the bug report view, just use best efforts to provide enough information to recreate the issue.
+  - Use the 'Report Bug' view at the bottom of a workflow, which will send the report to Github.
 
 # Tutorial
 ### Basic Concept
