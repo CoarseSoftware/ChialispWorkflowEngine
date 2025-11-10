@@ -1,4 +1,4 @@
-# Chialisp Workflow Engine (Early Beta)
+# Chialisp Workflow Engine (Beta)
 ### Beta Phase.  Some things may not work, have bugs and be subject to change.  Use the 'Report Bug' button at the bottom of a workflow when your experience is not as expected.
 ## [chialisp.coarsesoftware.com](https://chialisp.coarsesoftware.com/)
 
